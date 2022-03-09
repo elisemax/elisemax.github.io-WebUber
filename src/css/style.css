@@ -130,3 +130,76 @@ nav{
     font-weight: 400;
     text-transform: uppercase;
 }
+.work .work_divider{
+    display: block;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.work .work_divider .work_divider_descr{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+   
+    /* or 100% */
+    margin-top: 5px;
+    margin-left: 2px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+.work .work_header{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 48px;
+    /* identical to box height, or 126% */
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #222222;
+}
+.work .work_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+}
+.work .work_item .work_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+
+}
+.work .work_item .work_descr{
+    width: 343px;
+}
+
+.work .work_item .work_descr .work_subtitile{
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.work .work_item .work_descr .work_text{
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
