@@ -83,6 +83,9 @@ nav
     font-weight: 700
     text-transform: uppercase
     text-align: center
+    &_white
+        color: #ffffff
+      
 .subtitle
     margin-top: 19px
     color: #222222
@@ -90,6 +93,8 @@ nav
     font-weight: 400
     line-height: 21px
     text-align: center
+    &_white
+        color: #ffffff
 .label 
     margin: 0 auto
     height: 24px
@@ -100,6 +105,9 @@ nav
     font-size: 11px
     font-weight: 300
     text-transform: uppercase
+    &_white
+        background-color: #ffffff
+        color: #070716
 
 .promo
   min-height: 800px
@@ -261,3 +269,27 @@ nav
             margin: 0 auto
             border-radius: 100%
             cursor: pointer
+.car
+    position: relative
+    min-height: 895px
+    padding: 57px 0 138px 0
+    background: url('../img/mobile_bg.jpg') center (center / cover) no-repeat
+    &_img
+	    position: relative
+	    display: block
+	    margin: 56px auto 0 auto
+	    z-index: 2
+    &_text
+        font-weight: 300
+        font-size: 17px
+        line-height: 24px
+        text-align: center
+        color: #222222
+    .black 
+	    position: absolute 
+        top: 0
+	    left: 0
+	    height: 499px
+	    width: 100%
+	    background-color: #070716
+	    z-index: 1
