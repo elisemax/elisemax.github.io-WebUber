@@ -292,6 +292,7 @@ nav
                 width: 14px
                 height: 2px
                 background-color: $main-color
+                transition: 0.3s all
             &:after
                 content: ''
                 display: block
@@ -301,6 +302,11 @@ nav
                 width: 2px
                 height: 14px
                 background-color: $main-color
+                transition: 0.3s all
+            &:hover
+                &:before, &:after
+                    background-color: $second-color
+                    
                 
 .car
     position: relative
@@ -326,3 +332,41 @@ nav
 	    width: 100%
 	    background-color: #070716
 	    z-index: 1
+.reqiure
+    padding: 68px 0 84px 0
+    &_block
+        margin: 33px 0    
+        &_nmb
+            margin-bottom: 0px
+    &_title
+        color: #1ca8c3
+        font-size: 22px
+        font-weight: 400
+    &_list
+        list-style-type: none
+        padding-left: 50px
+        margin-top: 22px
+        li
+            position: relative
+            font-size: 17px
+            font-weight: 300
+            line-height: 24px
+            margin-bottom: 10px
+            &:before
+                content: ''
+                display: block
+                position: absolute
+                left: -32px
+                top: 50%
+                transform: translateY(-50%)
+                width: 21px
+                height: 21px
+                background: url('../icons/check_blue.svg') center (center / cover) no-repeat
+    &_descr
+        margin-top: 25px
+        font-size: 17px
+        font-weight: 300
+        line-height: 24px
+        color:#1ca8c3
+        
+            
